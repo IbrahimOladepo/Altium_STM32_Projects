@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MCU_JTRST Pin=P2-2
+Removed Pin From Net: NetName=MCU_JTMS Pin=P2-3
+Removed Pin From Net: NetName=MCU_JTD0 Pin=P2-5
+Added Pin To Net: NetName=MCU_JTMS Pin=P2-2
+Added Pin To Net: NetName=MCU_JTD0 Pin=P2-3
+Added Pin To Net: NetName=MCU_JTRST Pin=P2-5
