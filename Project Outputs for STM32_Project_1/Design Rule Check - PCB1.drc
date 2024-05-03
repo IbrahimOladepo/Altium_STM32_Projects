@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Ibrahim\Education\Courses_Tutorials\Embedded_Systems\Altium\STM32_Project_1\PCB1.PcbDoc
-Date     : 5/1/2024
-Time     : 11:10:52 PM
+Date     : 5/3/2024
+Time     : 12:13:49 AM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -38,9 +38,12 @@ Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad BT1-2(77mm,97.7mm) on L1 (Signal) And Text "+" (77.1mm,100.738mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.12mm < 0.127mm) Between Pad J1-3(120.305mm,95.615mm) on L1 (Signal) And Text "USB" (117.754mm,92.754mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.12mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J2-2(89.935mm,95mm) on L1 (Signal) And Text "USB" (90.47mm,94.63mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.127mm) Between Pad J2-3(87.265mm,97.54mm) on L1 (Signal) And Text "BAT" (86.73mm,95.17mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
    Violation between Silk To Solder Mask Clearance Constraint: (0.096mm < 0.127mm) Between Pad R8-1(90.5mm,85.449mm) on L1 (Signal) And Track (89.55mm,85.075mm)(89.55mm,88.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.096mm]
    Violation between Silk To Solder Mask Clearance Constraint: (0.096mm < 0.127mm) Between Pad R8-2(90.5mm,87.551mm) on L1 (Signal) And Track (89.55mm,85.075mm)(89.55mm,88.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.096mm]
-Rule Violations :3
+Rule Violations :6
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -52,6 +55,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
